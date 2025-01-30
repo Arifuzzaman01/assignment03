@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Tailwind + DaisyUI CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Font -->
+    <!-- Font-awesome cdn -->
+    <script
+      src="https://kit.fontawesome.com/3f46d520b9.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Custom Css -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              navBg: "#FFF9F4",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <header>
+      <nav class="bg-navBg px-5 md:px-20 mt-2">
+        <div class="flex justify-between items-center">
+          <div class="">
+            <a class="btn btn-ghost text-xl"
+              ><img src="./assets/logo-header.png" alt=""
+            /></a>
+          </div>
+          <div class="hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li><a>Find a pet</a></li>
+              <li><a>Breeds</a></li>
+              <li><a>Contact us</a></li>
+            </ul>
+          </div>
+          <div class="space-x-2">
+            <i class="fa-regular fa-bell hidden lg:inline"></i>
+            <i class="fa-solid fa-magnifying-glass hidden lg:inline"></i>
+            <a
+              class="px-7 py-2 border border-yellow-300 rounded-md hidden lg:inline"
+              >Login</a
+            >
+            <a class="px-7 py-2 bg-yellow-300 rounded-md hidden lg:inline"
+              >Button</a
+            >
+          </div>
+          <div class="lg:hidden">
+            <img src="./assets/menu 1.svg" alt="" />
+          </div>
+        </div>
+      </nav>
+      <!-- banner -->
+      <div class="my-10 mx-5 md:mx-20 h-60">
+        <div
+          class="max-w-screen min-h-screen rounded-md mt-20"
+          style="
+            background-image: url(./assets/cat-big.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+          "
+        >
+        <!-- position -->
+          <div class="md:pt-16 ">
+            <h1 class="mb-2 md:mb-5 text-3xl md:text-5xl font-bold ">
+              Pamper Your Pet, <br />
+              Because They Deserve <br />
+              the Bes
+            </h1>
+            <p class="mb-2 md:mb-5">
+              Discover a world of treats, toys, and essentials handpicked for
+              <br />
+              your furry friends. Shop now and make tails wag with joy!
+            </p>
+            <button class="px-5 py-2 bg-yellow-300 rounded-md">Find a pet</button>
+          </div>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
