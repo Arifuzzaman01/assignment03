@@ -64,28 +64,28 @@
         </div>
       </nav>
       <!-- banner -->
-      <div class="my-10 mx-5 md:mx-20">
+      <div class="mx-5 md:mx-20 md:py-10">
         <div
           class="max-w-screen h-full rounded-md mt-20"
           style="
             background-image: url(./assets/cat-big.png);
-            background-size: 100%;
+            background-size: cover;
+            background-position: center;
             background-repeat: no-repeat;
           "
         >
-          <!-- position -->
-          <div class="md:pt-16">
+          <div class=" ">
             <h1 class="mb-2 md:mb-5 text-3xl md:text-5xl font-bold">
               Pamper Your Pet, <br />
               Because They Deserve <br />
               the Bes
             </h1>
-            <p class="mb-2 md:mb-5">
+            <p class="mb-2 md:mb-5 ">
               Discover a world of treats, toys, and essentials handpicked for
               <br />
               your furry friends. Shop now and make tails wag with joy!
             </p>
-            <button class="px-5 py-2 bg-yellow-300 rounded-md">
+            <button class="px-5 py-2 mb-60 md:mb-40 bg-yellow-300 rounded-md animate-ping ">
               Find a pet
             </button>
           </div>
@@ -161,6 +161,40 @@
               <h1 class="font-bold text-xl">Rabit</h1>
               <p class="text-xl">2 items</p>
             </div>
+          </div>
+        </div>
+      </section>
+      <!-- extra section -->
+      <section class="">
+        <!-- heading -->
+        <div class="grid grid-cols-3 grid-rows-5">
+          <div
+            class="bg-yellow-200 col-span-2 row-span-1 flex justify-center items-center"
+          >
+            <h1 class="text-xl md:text-2xl text-yellow-900 font-semibold">
+              A Brief History of Cats
+            </h1>
+          </div>
+          <div class="bg-yellow-300 h-fit col-span-1 row-span-4">
+            <img src="./assets/lagycat1-.png" alt="" />
+          </div>
+          <div class="bg-yellow-400 h-fit col-span-1 row-span-4">
+            <img src="./assets/lagycat2.png" alt="" />
+          </div>
+          <div
+            class="col-span-1 row-span-3 flex items-end justify-center "
+          >
+            <img class="w-[70%] border-b-2 border-gray-500 animate-bounce" src="./assets/catAndBall.png" alt="" />
+          </div>
+          <div class="bg-yellow-500 col-span-2 row-span-1 flex items-center">
+            <marquee behavior="" direction=""
+              >A Brief History of Cats Cats were first domesticated over 4,000
+              years ago in ancient Egypt, where they were worshiped and even
+              mummified as sacred beings. Over time, they spread across the
+              world, adapting to different environments and becoming beloved
+              pets. Today, there are more than 70 recognized cat breeds, each
+              with its own distinct personality and appearance.</marquee
+            >
           </div>
         </div>
       </section>
@@ -338,9 +372,8 @@
             class="bg-gradient-to-tl from-[#F9DF8A] to-[#FFF9F4] rounded-md p-5 space-y lg:w-2/5 mb-5"
           >
             <div class="mt-8 md:mt-10 space-y-5 md:ml-10 ml-5 z-10">
-            
               <h1 class="text-2xl font-bold">T-Shirt For Dogs</h1>
-            
+
               <h2 class="font-bold text-4xl text-yellow-400">$7.99</h2>
             </div>
             <div class="flex justify-end z-0 -mt-28 md:-mt-52">
@@ -355,30 +388,43 @@
       </section>
       <!-- challenge part -->
       <section class="z-10 relative">
-        <div class="hero  bg-[#FFF9F4] rounded-md ">
-          <div class="  text-center md:text-left md:flex justify-between md:mx-20 items-center flex-col lg:flex-row py-10 ">
+        <div class="hero bg-[#FFF9F4] rounded-md">
+          <div
+            class="text-center md:text-left md:flex justify-between md:mx-20 items-center flex-col lg:flex-row py-10"
+          >
             <img
               src="./assets/cute-pet-small.png"
-              class=" rounded-lg mx-auto md:mx-0 " />
+              class="rounded-lg mx-auto md:mx-0"
+            />
             <div class="md:w-3/5">
-              <h1 class=" md:text-5xl text-3xl font-bold">Get Pawsome News!</h1>
+              <h1 class="md:text-5xl text-3xl font-bold">Get Pawsome News!</h1>
               <p class="md:py-6 py-2">
                 Exclusive training tips, ticks, product deals and more.
-              </p> 
-              <br>
-              <input type="email" placeholder="Enter email" class="input w-3/4 mb-5" />
-              <br>
-              <button class="px-5 py-2 bg-yellow-300 rounded-md">Subscribe</button>
+              </p>
+              <br />
+              <input
+                type="email"
+                placeholder="Enter email"
+                class="input w-3/4 mb-5"
+              />
+              <br />
+              <button class="px-5 py-2 bg-yellow-300 rounded-md">
+                Subscribe
+              </button>
             </div>
           </div>
         </div>
       </section>
     </main>
-    <footer class="footer bg-[#F9DF8A] relative text-base-content py-0 px-10 md:px-20 md:min-h-96 min-h-svh -mt-48  items-end pt-64 md:pt-60 pb-5">
+    <footer
+      class="footer bg-[#F9DF8A] relative text-base-content py-0 px-10 md:px-20 md:min-h-96 min-h-svh -mt-48 items-end pt-64 md:pt-60 pb-5"
+    >
       <nav>
-        <img src="./assets/logo-footer.png" alt="">
-        <p class="text-gray-500 text-base">Discover a world of treats, toys, <br> and essentials handpicked for your furry friends</p>
-        
+        <img src="./assets/logo-footer.png" alt="" />
+        <p class="text-gray-500 text-base">
+          Discover a world of treats, toys, <br />
+          and essentials handpicked for your furry friends
+        </p>
       </nav>
       <nav>
         <a class="link link-hover">Find a pet</a>
